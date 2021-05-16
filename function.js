@@ -119,7 +119,7 @@ let items = [
     "https://images-na.ssl-images-amazon.com/images/I/51L1NwRlp-L._AC_SL1000_.jpg"
   ),
   new Item(
-    "orangeJuice",
+    "orange",
     60,
     "https://images-na.ssl-images-amazon.com/images/I/81V-F%2BAxjEL._AC_SL1500_.jpg"
   ),
