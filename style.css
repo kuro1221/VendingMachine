@@ -4,43 +4,29 @@
 }
 
 .imgDiv {
-  width: 90%;
+  width: 20%;
   /* height: 300px; */
   /* text-align: center; */
   margin: 0;
+  overflow: hidden;
 }
 
 .img {
-  height: 200px;
+  height: 100px;
 }
 
 /* 右側 */
 .selectNumber {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   font-size: 32px;
   text-align: center;
-  line-height: 100px;
+  line-height: 80px;
 }
-
-.priceDisplay {
-}
-
 .selectBtn {
   width: 40px;
   height: 40px;
   margin: 10px;
-}
-
-/* .box {
-  height: 50vh;
-  padding: 0 !important;
-  transition: all 2s linear;
-}
-
-.full-width {
-  width: 100%;
-  flex-shrink: 0;
 }
 
 .deplete-animation {
@@ -60,4 +46,4 @@
     width: 0%;
     opacity: 0;
   }
-} */
+}
