@@ -11,71 +11,49 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <style type="text/css"></style>
-    <title></title>
+    <title>Vending Machine</title>
   </head>
-
   <body id="target" class="vh-100">
-    <head>
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-        crossorigin="anonymous"
-      />
-    </head>
-
-    <head>
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-        crossorigin="anonymous"
-      />
-    </head>
-    <head>
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-        crossorigin="anonymous"
-      />
-    </head>
-
-    <div id="target" class="m-5 p-5 d-flex bg-primary">
-      <div class="leftDiv col-8 m-1 bg-secondary">
-        <div class="imgDiv mx-auto my-4">
-          <img
-            class="img"
-            src="https://images-na.ssl-images-amazon.com/images/I/514sWdpH8SL._AC_SL1000_.jpg"
-          />
+    <nav class="navbar navbar-dark bg-primary">
+      <h1 class="text-light">Vending Machine</h1>
+    </nav>
+    <div id="target" class="m-5 p-5 d-flex">
+      <div class="leftDiv col-8 m-1 border border-secondary">
+        <div id="imgDiv" class="imgDiv mx-auto my-4 d-flex flex-nowrap">
+          <div id="extra" class="img"></div>
+          <div id="main" class="img mx-auto"></div>
         </div>
-        <button class="pushBtn m-4">PUSH</button>
+        <button class="m-4 btn btn-primary" onclick="alert('購入しました！')">
+          PUSH
+        </button>
       </div>
-      <div class="rightDiv col-4 m-1 bg-success">
+      <div class="rightDiv col-4 m-1 border border-secondary">
         <div class="detailDev d-flex justify-content-around m-4">
-          <div class="selectNumber bg-warning align-items-center">1</div>
-          <div class="priceDisplay">
-            <h2>Cola</h2>
-            <p>¥300</p>
+          <div
+            id="displayNum"
+            class="
+              selectNumber
+              border border-secondary
+              align-items-center
+              col-4
+            "
+          ></div>
+          <div class="displayItem col-8">
+            <h2 id="displayName"></h2>
+            <p id="displayPrice"></p>
           </div>
         </div>
-        <div class="btnDiv col-12 d-flex justify-content-between flex-wrap">
-          <button class="selectBtn col-3">1</button>
-          <button class="selectBtn col-3">2</button>
-          <button class="selectBtn col-3">3</button>
-          <button class="selectBtn col-3">4</button>
-          <button class="selectBtn col-3">5</button>
-          <button class="selectBtn col-3">6</button>
-          <button class="selectBtn col-3">7</button>
-        </div>
+        <div
+          id="btnContainer"
+          class="btnDiv col-12 d-flex justify-content-start flex-wrap"
+        ></div>
       </div>
     </div>
 
@@ -88,11 +66,6 @@
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
       integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
       crossorigin="anonymous"
     ></script>
   </body>
