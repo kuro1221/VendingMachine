@@ -12,7 +12,7 @@ Recursion Project2 Vending Machine
 - スライダー機能
 
 ## Installation
-$ git clone https://github.com/kuro1221/VendingMachine.git
+$ git clone https://github.com/kuro1221/VendingMachine.git <br>
 $ cd VendingMachine
 
 
