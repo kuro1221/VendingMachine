@@ -57,7 +57,7 @@ class VendingMachine {
   }
 
   //商品ボタンを押した時
-  static pushBtn(pushNum) {
+  pushBtn(pushNum) {
     let currNum = this.displayNum;
     let displayNum = document.getElementById("displayNum");
     let displayName = document.getElementById("displayName");
