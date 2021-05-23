@@ -6,16 +6,16 @@ Recursion Project2 Vending Machine
 コンピュータ学習プラットフォームRecursionの課題の一つです。
 
 サンプル画面
-https://kuro1221.github.io/BatteryFinderProgram/
+https://kuro1221.github.io/vendingMachine/
 
 - Bootstrap
 - Pure JavaScript
 
 ## Feature
-- DOM操作
+- スライダー
 
 ## Installation
-$ git clone https://github.com/kuro1221/BatteryFinderProgram.git <br>
+$ git clone https://github.com/kuro1221/VendingMachine.git <br>
 $ cd VendingMachine
 
 
